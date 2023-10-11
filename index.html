@@ -46,7 +46,7 @@
 </div>
 
 <div class="prawa">
-    <h3>Wybierz</h3>
+    <h2>Dane pojazdu:</h2>
     <fieldset>
         <legend>Marka Pojazdu</legend>
         <select name="Opcja" id="Opcja1">
@@ -59,11 +59,31 @@
             <option value="1">FIAT</option>
             <option value="1">SKODA</option>
             <option value="1">OPEL</option>
-            <option value="1"></option>
-            <option value="1"></option>
-            <option value="1"></option>
+            <option value="1">HONDA</option>
+            <option value="1">MAZDA</option>
+            <option value="1">NISSAN</option>
           </select>
     </fieldset>
+    <label for="kolor">
+        <fieldset>
+            <legend>Kolor</legend>
+        <input type="color" name="kolor">
+    </fieldset>
+    </label>
+    <label for="rok">
+        <fieldset>
+            <legend>Rok produkcji</legend>
+            <input type="range" id="a" name="a" min="1990" max="2023" step="1" oninput="result.value=a.value"/>          
+            <output name="result" for="a">2011</output>r.
+        </fieldset>
+        </label>
+        <label for="cena">
+            <fieldset>  
+                <legend> Cena maksymalna </legend>
+                    <input type="range" id="c" name="c" min="10000" max="5000000" step="1000" oninput="resu.value=c.value"/>          
+                    <output name="resu" for="c">250000</output>zł
+                </fieldset>
+            </label>
 </div>
 </div>
   </body>
