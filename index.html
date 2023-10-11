@@ -7,11 +7,64 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <fieldset>
+    <fieldset class="fild">
       <h1>Formularz zakupu samochodu</h1>
     </fieldset>
+    <div class="srodek">
+    <div class="lewa">
     <h2>Dane kupującego:</h2>
-    <label for=""></label>
-     
+    <form action="#">
+        <label for="FirstName">
+          <fieldset class="dane">
+            <legend>Imie:</legend>
+          <input type="text" name="FirstName" placeholder="np. Jan" required />
+            </fieldset>
+        </label>
+        <label for="LastName">
+          <fieldset class="dane">
+            <legend>Nazwisko:</legend>
+          <input
+            type="text"
+            name="LastName"
+            placeholder="np. Kowalski"
+            required
+          />
+        </fieldset>
+    </label>
+        <label for="pesel">
+        <fieldset class="dane">
+            <legend>PESEL:</legend>
+          <input type="number" name="pesel"  max="11" placeholder="twój numer pesel">
+        </fieldset>
+    </label>
+    <label for="gmail">
+        <fieldset class="dane">
+            <legend>Gmail:</legend>
+        <input type="mail" name="mail" placeholder="np. JanKowalski@gmail.com"/>
+    </fieldset>
+    </label>
+</div>
+
+<div class="prawa">
+    <h3>Wybierz</h3>
+    <fieldset>
+        <legend>Marka Pojazdu</legend>
+        <select name="Opcja" id="Opcja1">
+            <option value="1"></option>
+            <option value="1">BMW</option>
+            <option value="1">AUDI</option>
+            <option value="1">RENAULT</option>
+            <option value="1">TOYOTA</option>
+            <option value="1">MERCEDES</option>
+            <option value="1">FIAT</option>
+            <option value="1">SKODA</option>
+            <option value="1">OPEL</option>
+            <option value="1"></option>
+            <option value="1"></option>
+            <option value="1"></option>
+          </select>
+    </fieldset>
+</div>
+</div>
   </body>
 </html>
