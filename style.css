@@ -4,10 +4,11 @@ h1 {
 
 .fild {
   background-color: red;
+  border-radius: 50px;
 }
 
 .dane {
-  width: 200px;
+  width: 300px;
 }
 
 h2 {
@@ -21,4 +22,8 @@ h2 {
 
 .prawa {
   margin-left: 50px;
+}
+
+.prawo {
+  width: 300px;
 }
