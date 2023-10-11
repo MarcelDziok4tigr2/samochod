@@ -2,7 +2,23 @@ h1 {
   text-align: center;
 }
 
-fieldset {
+.fild {
   background-color: red;
 }
 
+.dane {
+  width: 200px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.srodek {
+  display: flex;
+  flex-direction: row;
+}
+
+.prawa {
+  margin-left: 50px;
+}
