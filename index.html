@@ -34,20 +34,22 @@
         <label for="pesel">
         <fieldset class="dane">
             <legend>PESEL:</legend>
-          <input type="number" name="pesel"  max="11" placeholder="twój numer pesel">
+          <input type="number" name="pesel" placeholder="twój numer pesel" required>
         </fieldset>
     </label>
     <label for="gmail">
         <fieldset class="dane">
             <legend>Gmail:</legend>
-        <input type="mail" name="mail" placeholder="np. JanKowalski@gmail.com"/>
+        <input type="mail" name="mail" placeholder="np. JanKowalski@gmail.com" required/>
     </fieldset>
     </label>
+    <input type="reset" value="Odśwież">
+    <input type="submit" value="Prześlij">
 </div>
 
 <div class="prawa">
     <h2>Dane pojazdu:</h2>
-    <fieldset>
+    <fieldset class="prawo">
         <legend>Marka Pojazdu</legend>
         <select name="Opcja" id="Opcja1">
             <option value="1"></option>
@@ -65,26 +67,33 @@
           </select>
     </fieldset>
     <label for="kolor">
-        <fieldset>
-            <legend>Kolor</legend>
+        <fieldset class="prawo">
+            <legend>Kolor samochodu</legend>
         <input type="color" name="kolor">
     </fieldset>
     </label>
     <label for="rok">
-        <fieldset>
+        <fieldset class="prawo">
             <legend>Rok produkcji</legend>
             <input type="range" id="a" name="a" min="1990" max="2023" step="1" oninput="result.value=a.value"/>          
             <output name="result" for="a">2011</output>r.
         </fieldset>
         </label>
         <label for="cena">
-            <fieldset>  
+            <fieldset class="prawo">  
                 <legend> Cena maksymalna </legend>
                     <input type="range" id="c" name="c" min="10000" max="5000000" step="1000" oninput="resu.value=c.value"/>          
                     <output name="resu" for="c">250000</output>zł
                 </fieldset>
             </label>
+            <label for="kolor">
+                <fieldset class="prawo">
+                    <legend>Kolor felg</legend>
+                <input type="color" name="kolor">
+            </fieldset>
+            
 </div>
 </div>
+<h4>UWAGI DO ZAMOWIENIA</h4>
   </body>
 </html>
