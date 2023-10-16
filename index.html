@@ -50,9 +50,8 @@
 <div class="prawa">
     <h2>Dane pojazdu:</h2>
     <fieldset class="prawo">
-        <legend>Marka Pojazdu</legend>
+        <legend>Marka pojazdu</legend>
         <select name="Opcja" id="Opcja1">
-            <option value="1"></option>
             <option value="1">BMW</option>
             <option value="1">AUDI</option>
             <option value="1">RENAULT</option>
@@ -64,6 +63,7 @@
             <option value="1">HONDA</option>
             <option value="1">MAZDA</option>
             <option value="1">NISSAN</option>
+            <option value="1"></option>
           </select>
     </fieldset>
     <label for="kolor">
@@ -82,7 +82,7 @@
         <label for="cena">
             <fieldset class="prawo">  
                 <legend> Cena maksymalna </legend>
-                    <input type="range" id="c" name="c" min="10000" max="5000000" step="1000" oninput="resu.value=c.value"/>          
+                    <input type="range" id="c" name="c" min="10000" max="5000000" step="5000" oninput="resu.value=c.value"/>          
                     <output name="resu" for="c">250000</output>zł
                 </fieldset>
             </label>
@@ -91,6 +91,40 @@
                     <legend>Kolor felg</legend>
                 <input type="color" name="kolor">
             </fieldset>
+            <fieldset class="Paliwo">
+                <legend>Rodzaj paliwa</legend>
+                <select name="Opcja" id="Opcja1">
+                    <option value="1">______________________________</option>
+                    <option value="1">Diesel</option>
+                    <option value="1">Benzyna+CNG</option>
+                    <option value="1">Elektryczny</option>
+                    <option value="1">Benzyna+LPG</option>
+                    <option value="1">Hybryda</option>
+                    <option value="1">Wodór</option>
+                    <option value="1">Benzyna</option>
+                    <option value="1"></option>
+                  </select>
+            </fieldset>
+            <label for="przebieg">
+                <fieldset class="prawo">  
+                    <legend>Przebieg samochodu</legend>
+                        <input type="range" id="d" name="d" min="20000" max="250000" step="5000" oninput="resusu.value=d.value"/>          
+                        <output name="resusu" for="d">1000000</output>km
+                    </fieldset>
+                </label>
+                <fieldset class="skrzynia">
+                    <legend>Skrzynia biegów</legend>
+                    <select name="Opcja" id="Opcja1">
+                        <option value="1">Automatyczna</option>
+                        <option value="1">Manualna</option>
+                        <option value="1"></option>
+                      </select>
+                </fieldset>
+                <fieldset class="Zaznaczniki">
+                    <legend>Wyposażenie</legend>
+                    <input type="checkbox">klimatyzacja automatyczna
+                    <input type="checkbox">reflektory LED<br>
+                </fieldset>
             
 </div>
 </div>
