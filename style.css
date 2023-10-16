@@ -1,9 +1,10 @@
 h1 {
     text-align: center;
+    color: white;
   }
   
   .fild {
-    background-color: chocolate;
+    background-color: black;
     border-radius: 50px;
   }
   
@@ -30,4 +31,24 @@ h1 {
 
 body {
     background-color: white;
+}
+
+.next {
+  margin-top: 68px;
+}
+
+.auto {
+  border: 3px solid black;
+  border-radius: 25px;
+}
+.leprawa {
+  padding: 10px;
+}
+
+.koniec {
+  padding: 10px;
+}
+
+.linia {
+  text-decoration: underline;
 }
