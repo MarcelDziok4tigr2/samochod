@@ -1,29 +1,33 @@
 h1 {
-  text-align: center;
-}
+    text-align: center;
+  }
+  
+  .fild {
+    background-color: chocolate;
+    border-radius: 50px;
+  }
+  
+  .dane {
+    width: 300px;
+  }
+  
+  h2 {
+    text-decoration: underline;
+  }
+  
+  .srodek {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .prawa {
+    margin-left: 50px;
+  }
+  
+  .prawo {
+    width: 300px;
+  }
 
-.fild {
-  background-color: red;
-  border-radius: 50px;
-}
-
-.dane {
-  width: 300px;
-}
-
-h2 {
-  text-decoration: underline;
-}
-
-.srodek {
-  display: flex;
-  flex-direction: row;
-}
-
-.prawa {
-  margin-left: 50px;
-}
-
-.prawo {
-  width: 300px;
+body {
+    background-color: white;
 }
